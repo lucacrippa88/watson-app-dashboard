@@ -27,6 +27,10 @@ You will need to edit:
 
 This dashboard features a responsive layout with lateral menu, dropdown menu, mobile drawer and a fixed footer.
 
+### Screenshots
+
+To be updated.
+
 ## Related tutorials
 
 Please refer to the following repos to gain knowledge on how Watson Assistant is integrated within this dashboard:
