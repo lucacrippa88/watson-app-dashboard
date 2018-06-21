@@ -25,7 +25,7 @@ You will need to edit:
 
 ## Features
 
-This dashboard features a responsive layout with lateral menu, dropdown menu, mobile drawer and a fixed footer.
+This dashboard features a responsive layout with lateral menu, dropdown menu, mobile drawer and a fixed footer. The dashboard is enabled to integrate a Virtual Assistant powered by Watson Assistant. Please see related tutorials for more info.
 
 ### Screenshots
 
