@@ -1,0 +1,32 @@
+
+  <span class="mdl-layout-title">
+    <span id="version" style="position:relative;font-size:smaller;right:-80%"></span>
+    <br>
+    <!-- <a style="color:#FFFFFF!important;" href="/"><span style="font-weight:300">Admin</span> Zone</a> -->
+    <img src="img/az_logo.png" style="position:relative;left:0px;top:25px;filter:invert(100%);" height="40px" width="52px">
+    <!-- <br>
+    <span style="position:relative;top:-20px;bottom:-20px;">Admin <b>Zone</b></span> -->
+    <br>
+    <a id="website" style="color:#FFFFFF!important;font-size:smaller!important;position:relative;top:-10px;" href="/"></a>
+  </span>
+  <nav class="mdl-navigation">
+    <a class="mdl-navigation__link" href="/admin/dashboard.php"><i class="material-icons">dashboard</i>&ensp;&ensp;Dashboard</a>
+    <a class="mdl-navigation__link" href="/admin/post.php"><i class="material-icons">create</i>&ensp;&ensp;Crea post</a>
+    <a class="mdl-navigation__link" href="/admin/list.php?lista=post"><i class="material-icons">view_stream</i>&ensp;&ensp;Lista dei post</a>
+    <a class="mdl-navigation__link" href="/admin/list.php?lista=pagine"><i class="material-icons">view_carousel</i>&ensp;&ensp;Elenco delle pagine</a>
+    <a class="mdl-navigation__link" href="/admin/list.php?lista=cestino"><i class="material-icons">delete</i>&ensp;&ensp;Cestino</a>
+    <hr>
+    <a class="mdl-navigation__link" href="#"><i class="material-icons">inbox</i>&ensp;&ensp;Vai alla Posta</a>
+    <a class="mdl-navigation__link" href="#"><i class="material-icons">today</i>&ensp;&ensp;Gestisci calendario</a>
+    <a class="mdl-navigation__link" href="#"><i class="material-icons">send</i>&ensp;&ensp;Newsletter</a>
+    <a class="mdl-navigation__link" href="#"><i class="material-icons">timeline</i>&ensp;&ensp;Statistiche sito</a>
+    <hr>
+    <!--<a class="mdl-navigation__link" href="#"><i class="material-icons">import_contacts</i>&ensp;&ensp;Documentazione</a>-->
+    <a class="mdl-navigation__link" href="#"><i class="material-icons">help_outline</i>&ensp;&ensp;Supporto</a>
+  </nav>
+
+  <script>
+  var website = window.location.hostname;
+  $("#website").text(website);
+  insertVersion();
+  </script>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+<!-- JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Carbon Design -->
+<link rel='stylesheet' type='text/css' href='css/carbon-components.min.css' />
+<script src='js/carbon-components.min.js'></script>
+<!-- Admin Zone functions -->
+<script src='js/material-lite.js'></script>
+<script src='js/materialize.min.js'></script>
+<script src="js/admin-zone.js"></script>
+
+<script>
+  createHead();
+</script>
+
+<body>
+
+  <div class="row">
+
+      <div class="col l4 s12"></div>
+
+      <div class="col l4 s12" style="">
+
+          <div class="bx--module bx--module--double" style="position:relative; margin-top:20%;">
+            <div class="bx--module__inner">
+              <div class="bx--module__content">
+              <p>
+              <center>
+                  <div class="input-field"><h5>Username</h5>
+                    <input id="username" type="text" name="username" style="width:80%"><label for="username"></label>
+                  </div>
+                  <div class="input-field"><h5>Password</h5>
+                    <input id="password" type="password" name="password" style="width:80%"><label for="password"></label>
+                  </div>
+              </center>
+                  <i class="material-icons show-password" style="cursor:pointer; position:relative; top:-55px; width:20px; left:80%;"></i>
+              <center>
+                  <button class="bx--btn bx--btn--primary" style="width:150px;" type="submit" id="login">Login</button>
+                  <br>
+                  <br>
+                  <section class="bx--order-footer">
+                    <p class="bx--order-footer-text">Non riesci a loggarti?</p>
+                    &nbsp;
+                    <a href="" class="bx--link">Contatta il supporto</a>
+                  </section>
+              </center>
+              </p>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          <center><img class="bx--logo__image" src="img/az_logo.png" style="height:35px; width:auto;"></center>
+
+      </center>
+      </div>
+
+      <div class="col l4 s12"></div>
+
+    </div>
+
+  </div>
+
+</body>
+
+<script>
+mainLogin();
+</script>
+
+</html>
