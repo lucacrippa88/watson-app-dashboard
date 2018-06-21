@@ -18,11 +18,14 @@ The only prerequisite is to have a working PHP application.
 
 ## Installation
 
-To be updated.
+Copy the contents and start creating your dashboard using examples you find in it.
+You will need to edit:
+1. admincfg/CheckLogin.php: set username and password to log in to the web application
+2. api/ChatBot.php: set workspace id, username and password of Watson Assistant service
 
 ## Features
 
-To be updated.
+This dashboard features a responsive layout with lateral menu, dropdown menu, mobile drawer and a fixed footer.
 
 ## Related tutorials
 
