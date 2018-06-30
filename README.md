@@ -37,6 +37,7 @@ This dashboard features a responsive layout with lateral menu, dropdown menu, mo
 6. Hourpick
 7. Tabulation and media
 8. Virtual Assistant with Watson Assistant
+
 See screenshots here: https://github.com/lucacrippa88/watson-app-php-dashboard/tree/master/screenshots
 
 ## Related tutorials
