@@ -29,6 +29,7 @@ This dashboard features a responsive layout with lateral menu, dropdown menu, mo
 
 ### Screenshots
 
+Here some screenshots of the main dashboard components.
 1. Login
 2. Navbar
 3. Options
